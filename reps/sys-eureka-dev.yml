@@ -2,11 +2,11 @@
 spring:
   application:
     name: sys-eureka
-# 服务端口号
+# 服务端口号8761默认推荐
 server:
-  port: 8761
+  port: 8761 
 
-#Eureka 相关配置
+#Eureka 相关配置 
 eureka:
   client:
     service-url:
