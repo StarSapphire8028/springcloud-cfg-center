@@ -1,0 +1,14 @@
+server:
+  port: 40000
+spring:
+  application:
+    name: crm-zuul
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9000/eureka/
+zuul:
+  routes:
+    hello-service:
+      path: /crmapp/feign1/**
+      serviceId: CRM-FEIGN1
