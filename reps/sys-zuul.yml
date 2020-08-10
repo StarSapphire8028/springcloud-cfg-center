@@ -1,5 +1,5 @@
 server:
-  port: 40001
+  port: 40000
 spring:
   application:
     name: crm-zuul
